@@ -201,6 +201,15 @@ fieldset {
     color: black;
 }
 
+.menu-item > div > ul > li {
+    font-weight: 900;
+    font-size: large;
+}
+
+.pho-price {
+    text-align: center;
+}
+
 .price > h3 {
     text-align: end;
 }
