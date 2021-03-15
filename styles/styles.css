@@ -224,6 +224,12 @@ fieldset {
     width: 92vw;
 }
 
+@media (max-width: 600px) {
+    fieldset {
+        width: 89vw;
+    }
+}
+
 .menu-items {
     display: flex;
     flex-direction: column;
