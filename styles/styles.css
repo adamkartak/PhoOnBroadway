@@ -64,12 +64,14 @@ main {
 }
 
 .nav-item {
+
     width: 50vw;
 } 
 
 .nav-item > ul {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     font-size: large;
 }
 
