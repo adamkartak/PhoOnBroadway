@@ -259,6 +259,21 @@ fieldset {
     font-size: large;
 }
 
+.menu-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pho-price {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vw;
+}
+
 @media (max-width: 600px) {
     .menu-item > div > ul {
         padding-left: 0;
@@ -268,10 +283,19 @@ fieldset {
         font-weight: 400;
         font-size: large;
     }
-}
 
-.pho-price {
-    text-align: center;
+    .pho-explain {
+        font-size: medium;
+        font-weight: 500;
+    }
+
+    .pho-price {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80vw;
+    }
 }
 
 .price > h3 {
@@ -292,8 +316,8 @@ fieldset {
 footer {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    width: 90vw;
+    width: 100vw;
+    margin-bottom: -10px;
 }
 
 .foot-bottom {
