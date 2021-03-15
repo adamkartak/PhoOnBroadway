@@ -79,6 +79,8 @@ main {
 
 @media (max-width: 600px) {
     #nav-bar {
+        margin-top: -10px;
+        width: 100vw;
         flex-direction: column;
         position: relative;       
     }
@@ -137,19 +139,55 @@ main {
     color: #da723c;
     font-family: 'Permanent Marker', cursive;
     font-weight: 200;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .second > h1 {
     margin-top: 0;
     color: #fdf1d6;
     font-family: 'Righteous', cursive;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .main-img > img {
     padding: 7vw;
     width: 30vw;
+}
+
+@media (max-width: 600px) {
+    .top {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .text-one {
+        margin-top: 2vw;
+        
+        margin-left: 0;
+        margin-bottom: 4vh;
+    }
+
+    .first > h1 {
+        font-size: x-large;
+    }
+
+    .second > h1 {
+        font-size: xx-large;
+    }
+
+    .main-img {
+        
+        padding: 0;
+        width: 60vw;
+    }
+
+    .main-img > img {
+        padding: 0;
+        width: 60vw;
+    }
 }
 
 .info {
@@ -174,11 +212,16 @@ main {
     padding-top: 20vh;
 }
 
+@media (max-width: 600px) {
+    .first-menu {
+        padding-top: 0;
+    }
+}
+
 fieldset {
     position: relative;
     left: 3vw;
     width: 92vw;
-    
 }
 
 .menu-items {
@@ -186,7 +229,6 @@ fieldset {
     flex-direction: column;
     background-color: rgb(250, 246, 242);
     /* background-color: white; */
-   
     color: black;
 }
 
@@ -201,9 +243,25 @@ fieldset {
     color: black;
 }
 
+#menu > .menu-items > .menu-item > div > ul {
+   width: 50vw;
+    padding-left: 0;
+}
+
 .menu-item > div > ul > li {
     font-weight: 900;
     font-size: large;
+}
+
+@media (max-width: 600px) {
+    .menu-item > div > ul {
+        padding-left: 0;
+    }
+
+    .menu-item > div > ul > li {
+        font-weight: 400;
+        font-size: large;
+    }
 }
 
 .pho-price {
@@ -217,6 +275,12 @@ fieldset {
 .outer {
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .outer {
+        flex-direction: column;
+    }
 }
 
 footer {
