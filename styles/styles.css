@@ -311,6 +311,14 @@ fieldset {
     .outer {
         flex-direction: column;
     }
+
+    .price > h3 {
+        font-size: large;
+    }
+
+    .bottom > .menu-item > .price {
+        width: 30vw;
+    }
 }
 
 footer {
