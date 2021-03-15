@@ -153,6 +153,11 @@ main {
     text-shadow: 2px 2px 5px black;
 }
 
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
+
 .main-img > img {
     padding: 7vw;
     width: 30vw;
