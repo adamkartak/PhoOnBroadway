@@ -142,6 +142,7 @@ main {
     font-family: 'Permanent Marker', cursive;
     font-weight: 200;
     font-size: 2vw;
+    text-shadow: 2px 2px 5px black;
 }
 
 .second > h1 {
@@ -149,11 +150,14 @@ main {
     color: #fdf1d6;
     font-family: 'Righteous', cursive;
     font-size: 3vw;
+    text-shadow: 2px 2px 5px black;
 }
 
 .main-img > img {
     padding: 7vw;
     width: 30vw;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 @media (max-width: 600px) {
@@ -224,6 +228,10 @@ fieldset {
     position: relative;
     left: 3vw;
     width: 92vw;
+}
+
+legend {
+    text-shadow: 1px 1px 2px black;
 }
 
 @media (max-width: 600px) {
@@ -331,9 +339,21 @@ footer {
     margin-bottom: -10px;
 }
 
+.phone > h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+}
+
 .foot-bottom {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    .hours, .address {
+        width: 50vw;
+        font-size: small;
+    }
 }
