@@ -313,11 +313,12 @@ fieldset {
     }
 
     .price > h3 {
-        font-size: large;
+        font-size: medium;
     }
 
     .bottom > .menu-item > .price {
         width: 30vw;
+        font-size: medium;
     }
 }
 
