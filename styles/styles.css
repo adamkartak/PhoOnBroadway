@@ -386,3 +386,13 @@ footer {
         font-size: small;
     }
 }
+
+.credit {
+    padding-top: 4vh;
+    text-align: center;
+}
+
+footer > div > p > a {
+    text-decoration: none;
+    color: #91091e;
+}
